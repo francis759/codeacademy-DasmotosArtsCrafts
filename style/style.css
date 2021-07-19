@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+}
+.main-container{
+    margin: auto 10px;
+}
+.header{
+    background-image: url();
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    background-image: url('../images/pattern.webp');
+}
+.header h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+.brushes, .frames, .paint{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.brushes{
+    background-color: mediumspringgreen;
+}
+.frames{
+    background-color: lightcoral;
+}
+.paint{
+    background-color: skyblue;
+}
+.image-holder{
+    margin: 20px 0;
+}
+h3{
+    margin: 15px 0;
+}
+p{
+    margin: 20px 0;
+}
+p span{
+    font-weight: bold;
+    color: blue;
+}
